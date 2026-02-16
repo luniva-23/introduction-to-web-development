@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  height: 100vh;
+}
+
+.box{
+ width: 200px;
+ height: 200px;
+ background-color: lightblue;
+}
+
+.container :nth-child(even){
+    background-color: lightcoral;
+}
